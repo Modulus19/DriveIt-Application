@@ -7,6 +7,11 @@
     "icon": "./assets/images/icon.png",
     "scheme": "driveit",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#304FFE"
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -28,13 +33,13 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/Logo.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#304FFE"
         }
       ]
     ],
+
     "experiments": {
       "typedRoutes": true
     }
