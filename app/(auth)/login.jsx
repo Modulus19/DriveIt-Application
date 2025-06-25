@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     gap: 15,
     marginBottom: 20,
-    marginTop: 30,
+    marginTop: 50,
   },
   logo: {
     width: 122,
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 60,
-    width: 320,
+    width: 354,
     borderRadius: 74,
     marginTop: 20,
     backgroundColor: "white",
@@ -132,24 +132,25 @@ const styles = StyleSheet.create({
   inputContainer: {
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 20,
-    gap: 10,
+    gap: 15,
+    marginTop: 40,
     textAlign: "center",
   },
   btn: {
     fontFamily: "PoppinsMedium",
     color: COLORS.secondary,
+    marginTop: 5,
     textAlign: "center",
   },
   button: {
-    width: 320,
+    width: 354,
     height: 60,
     borderRadius: 74,
     backgroundColor: COLORS.textPrimary,
     alignItems: "center",
     justifyContent: "center",
     alignSelf: "center",
-    marginTop: 30,
+    marginTop: 40,
   },
   buttonText: {
     fontFamily: "PoppinsSemiBold",

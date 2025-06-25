@@ -268,7 +268,7 @@ export default function TabTwoScreen() {
 const styles = StyleSheet.create({
   searchContainer: {
     height: 60,
-    width: 320,
+    width: 354,
     borderRadius: 74,
     marginTop: 20,
     backgroundColor: "white",
@@ -351,8 +351,8 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   majorCarContainer: {
-    width: 300,
-    height: 301,
+    width: 354,
+    height: 355,
     borderRadius: 35,
     backgroundColor: COLORS.secondary,
     alignSelf: "center",
