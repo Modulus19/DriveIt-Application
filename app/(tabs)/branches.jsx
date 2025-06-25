@@ -1,9 +1,21 @@
 import { View, Text } from "react-native";
 
-export default function HomeScreen() {
+const Branches = () => {
   return (
     <View>
-      <Text> This Is The Home Page</Text>
+      <Text
+        style={{
+          color: "black",
+          fontFamily: "PoppinsBold",
+          fontSize: 24,
+          marginTop: 30,
+          marginBottom: 20,
+        }}
+      >
+        This Is The Branches Page
+      </Text>
     </View>
   );
-}
+};
+
+export default Branches;

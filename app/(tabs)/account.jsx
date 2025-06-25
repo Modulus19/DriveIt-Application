@@ -1,9 +1,21 @@
 import { View, Text } from "react-native";
 
-export default function TabTwoScreen() {
+const Account = () => {
   return (
     <View>
-      <Text> This Is The Explore Page</Text>
+      <Text
+        style={{
+          color: "black",
+          fontFamily: "PoppinsBold",
+          fontSize: 24,
+          marginTop: 30,
+          marginBottom: 20,
+        }}
+      >
+        This Is The Account's Page
+      </Text>
     </View>
   );
-}
+};
+
+export default Account;
